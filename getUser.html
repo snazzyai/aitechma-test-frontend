@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>User Details</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <form id="form">
+      <div class="input">
+        <div class="input-container">
+          <input
+            class="input-field"
+            type="number"
+            name="pin"
+            id="pin"
+            placeholder="Enter pin to fetch User"
+            required
+          />
+        </div>
+        <div class="input-container">
+          <button type="submit" class="btn" id="pin-btn">Submit</button>
+          <a id="get-user-link" href="/index.html">
+            <p>Create New User</p>
+          </a>
+        </div>
+        <div class="error-message" id="error"></div>
+      </div>
+    </form>
+
+    <div id="user-details"></div>
+    <div class="error-message" id="error"></div>
+
+    <script src="js/getUser.js"></script>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+}
+
+.btn {
+  background-color: cornflowerblue;
+  border: 0;
+  padding: 10px 10px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.input-field {
+  width: 90%;
+  height: 2.7em;
+  border-radius: 5px;
+  border: 1px solid rgb(204, 204, 204);
+  padding-left: 4px;
+}
+
+.input-container {
+  text-align: center;
+  padding: 10px 0;
+  margin: auto;
+  width: 50%;
+}
+
+.input {
+  margin-top: 30vh;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.message {
+  color: #fff;
+}
+.message:hover {
+  color: blue;
+}
+
+.email {
+  color: blueviolet;
+}
+
+.error-message {
+  padding: 3px 10px;
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: center;
+  color: #fff;
+  box-shadow: 2px 2px 2px rgb(130, 129, 129);
+  width: 20%;
+  border-radius: 5px;
+  margin-top: 8%;
+  margin-left: 58%;
+  margin-bottom: 5%;
+  display: none;
+}
+
+#get-user-link {
+  text-align: center;
+  text-decoration: none;
+  font-size: 19px;
+  color: blue;
+  margin-top: 10px;
+}
+#get-user-link:hover {
+  color: blueviolet;
+}
+
+#user-details {
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px rgb(78, 78, 78);
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  display: none;
+  width: 50%;
+  margin: auto;
+  background-color: #fff;
+}
+#user-details h2 {
+  color: rgb(112, 101, 101);
+}
+
+.details {
+  color: cornflowerblue;
+}

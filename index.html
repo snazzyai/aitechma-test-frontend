@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>User Details</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <form id="form">
+      <div class="input">
+        <div class="input-container">
+          <input
+            class="input-field"
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Username"
+            required
+          />
+        </div>
+        <div class="input-container">
+          <input
+            class="input-field"
+            type="number"
+            minlength="11"
+            name="phoneNumber"
+            id="phone"
+            placeholder="Phone number"
+            required
+          />
+        </div>
+        <div class="input-container">
+          <input
+            class="input-field"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+        </div>
+        <div class="input-container">
+          <button type="submit" class="btn" id="btn">Submit</button>
+          <a id="get-user-link" href="/getUser.html">
+            <p>Get User Details</p>
+          </a>
+        </div>
+        <div id="email-preview"></div>
+
+        <div class="error-message" id="error"></div>
+      </div>
+    </form>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
