@@ -7,7 +7,7 @@ const buttonPin = document.querySelector("#pin-btn");
 
 buttonPin.addEventListener("click", pinSubmit);
 
-const url = "http://localhost:3000/api";
+const url = "http://aitechma-backend.herokuapp.com/api";
 
 //shows Error messages
 function showErrorMessage(message) {
@@ -33,7 +33,7 @@ function showSuccessMessage(message) {
     errorMessage.style.display = "none";
     errorMessage.innerHTML = "";
     userDetails.style.display = "block";
-  }, 5000);
+  }, 2000);
 
   return false;
 }

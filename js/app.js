@@ -9,7 +9,7 @@ const button = document.querySelector("#btn");
 
 button.addEventListener("click", formSubmit);
 
-const url = "http://localhost:3000/api";
+const url = "http://aitechma-backend.herokuapp.com/api";
 
 //shows Error messages
 function showErrorMessage(message) {
